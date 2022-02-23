@@ -1,8 +1,8 @@
 import * as React from 'react';
 import clsx from 'clsx';
 
-import styles from './index.module.scss';
-import { EBreakpoint } from './enums';
+import styles from '../styles/index.module.scss';
+import { EBreakpoint } from '../enums';
 
 type IMinChildWidthSize = 1 | 2 | 3 | 4 | 5;
 

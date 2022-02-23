@@ -1,2 +1,2 @@
-export * from './auto-grid';
+export * from './components';
 export * from './enums';
