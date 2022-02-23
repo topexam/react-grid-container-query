@@ -1,6 +1,6 @@
 {
   "name": "@topthithu/react-grid-container",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "license": "MIT",
   "author": "An Nguyen Q. <ngquangan.dev@gmail.com>",
   "main": "dist/index.js",
