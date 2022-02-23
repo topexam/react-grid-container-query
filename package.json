@@ -10,6 +10,16 @@
     "dist",
     "src"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/topthithu/react-grid-container"
+  },
+  "homepage": "https://github.com/topthithu/react-grid-container",
+  "keywords": [
+    "react",
+    "container query",
+    "grid system"
+  ],
   "scripts": {
     "analyze": "size-limit --why",
     "build": "dts build",
