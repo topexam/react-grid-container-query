@@ -20,6 +20,9 @@
     "container query",
     "grid system"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "analyze": "size-limit --why",
     "build": "dts build",
