@@ -7,7 +7,7 @@ import './index.css';
 
 const App = () => {
   return (
-    <div style={{ maxWidth: 1600, margin: '10rem auto' }}>
+    <div style={{ maxWidth: 1000, margin: '10rem auto' }}>
       <strong>Auto Grid</strong>
       <AutoGrid
         minChildWidth={{
@@ -25,10 +25,10 @@ const App = () => {
         <GridItem base={4}>
           <div className="child">base: 4</div>
         </GridItem>
-        <GridItem base={4} md={8}>
+        <GridItem base={4} xl={8}>
           <div className="child">base: 4, md: 8</div>
         </GridItem>
-        <GridItem xs={8} md={8}>
+        <GridItem xs={8} xl={8}>
           <div className="child">xs: 8, md: 8</div>
         </GridItem>
       </Grid>

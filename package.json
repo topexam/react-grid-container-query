@@ -1,5 +1,5 @@
 {
-  "name": "react-grid-container",
+  "name": "@topthithu/react-grid-container",
   "version": "0.0.0",
   "license": "MIT",
   "author": "An Nguyen Q. <ngquangan.dev@gmail.com>",
@@ -9,6 +9,16 @@
   "files": [
     "dist",
     "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/topthithu/react-grid-container"
+  },
+  "homepage": "https://github.com/topthithu/react-grid-container",
+  "keywords": [
+    "react",
+    "container query",
+    "grid system"
   ],
   "scripts": {
     "analyze": "size-limit --why",
@@ -77,6 +87,7 @@
   },
   "dependencies": {
     "clsx": "^1.1.1",
-    "postcss": "^8.4.6"
+    "postcss": "^8.4.6",
+    "react-container-query": "^0.12.0"
   }
 }
