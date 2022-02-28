@@ -122,50 +122,50 @@ lg,
 xl;
 
 @each $bp in $breakpoints {
-    .container-#{bp} {
-        .grid-auto-1\@#{bp} {
+    .container-#{$bp} {
+        .grid-auto-1\@#{$bp} {
             --col-min-width: 8rem;
         }
 
-        .grid-auto-2\@#{bp} {
+        .grid-auto-2\@#{$bp} {
             --col-min-width: 10rem;
         }
 
-        .grid-auto-3\@#{bp} {
+        .grid-auto-3\@#{$bp} {
             --col-min-width: 15rem;
         }
 
-        .grid-auto-4\@#{bp} {
+        .grid-auto-4\@#{$bp} {
             --col-min-width: 20rem;
         }
 
-        .grid-auto-5\@#{bp} {
+        .grid-auto-5\@#{$bp} {
             --col-min-width: 25rem;
         }
 
-        .grid-auto-cols\@#{bp} {
+        .grid-auto-cols\@#{$bp} {
             grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
         }
 
         @for $i from 1 through $grid-columns {
-            .col-#{$i}\@#{bp} {
+            .col-#{$i}\@#{$bp} {
                 grid-column-end: span #{$i};
             }
 
-            .col-start-#{$i}\@#{bp} {
+            .col-start-#{$i}\@#{$bp} {
                 grid-column-start: #{$i};
             }
 
-            .col-end-#{$i+1}\@#{bp} {
+            .col-end-#{$i+1}\@#{$bp} {
                 grid-column-end: #{$i+1};
             }
         }
 
-        .col-start-auto\@#{bp} {
+        .col-start-auto\@#{$bp} {
             grid-column-start: auto;
         }
 
-        .col-end-auto\@#{bp} {
+        .col-end-auto\@#{$bp} {
             grid-column-end: auto;
         }
     }
