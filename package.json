@@ -11,9 +11,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/topthithu/react-grid-container"
+    "url": "https://github.com/topthithu/react-grid-container-query"
   },
-  "homepage": "https://github.com/topthithu/react-grid-container",
+  "homepage": "https://github.com/topthithu/react-grid-container-query",
   "keywords": [
     "react",
     "container query",
