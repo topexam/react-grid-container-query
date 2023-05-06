@@ -1,1 +1,1 @@
-# @topthithu/react-grid-container
+# react-grid-container-query
