@@ -1,6 +1,6 @@
 {
   "name": "react-grid-container-query",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "license": "MIT",
   "author": "An Nguyen Q. <ngquangan.dev@gmail.com>",
   "main": "dist/index.js",
