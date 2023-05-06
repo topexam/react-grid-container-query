@@ -1,5 +1,5 @@
 {
-  "name": "@topthithu/react-grid-container",
+  "name": "react-grid-container",
   "version": "0.0.3",
   "license": "MIT",
   "author": "An Nguyen Q. <ngquangan.dev@gmail.com>",
@@ -7,8 +7,7 @@
   "module": "dist/react-grid-container.esm.js",
   "typings": "dist/index.d.ts",
   "files": [
-    "dist",
-    "src"
+    "dist"
   ],
   "repository": {
     "type": "git",
@@ -18,11 +17,9 @@
   "keywords": [
     "react",
     "container query",
+    "react container query",
     "grid system"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
   "scripts": {
     "analyze": "size-limit --why",
     "build": "dts build",
@@ -86,11 +83,14 @@
     "sass": "^1.49.8",
     "size-limit": "^7.0.5",
     "tslib": "^2.3.1",
-    "typescript": "^4.5.4"
+    "typescript": "^4.5.4",
+    "postcss": "^8.4.6"
   },
   "dependencies": {
     "clsx": "^1.1.1",
-    "postcss": "^8.4.6",
     "react-container-query": "^0.12.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
