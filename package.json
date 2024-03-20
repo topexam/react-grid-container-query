@@ -2,7 +2,10 @@
   "name": "react-grid-container-query",
   "version": "0.0.7",
   "license": "MIT",
-  "author": "An Nguyen Q. <ngquangan.dev@gmail.com>",
+  "author": {
+    "name": "Felix Nguyen",
+    "email": "im.felixng@gmail.com"
+  },
   "main": "dist/index.js",
   "module": "dist/react-grid-container-query.esm.js",
   "typings": "dist/index.d.ts",
