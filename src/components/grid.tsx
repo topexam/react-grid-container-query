@@ -3,8 +3,7 @@ import clsx from 'clsx';
 import { useContainerQuery } from 'react-container-query';
 
 import { EBreakpoint } from '../enums';
-
-import styles from '../styles/index.module.scss';
+import styles from './index.module.scss';
 
 const query = {
   [styles['container-xs']]: {

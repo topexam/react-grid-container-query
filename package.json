@@ -14,9 +14,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/topthithu/react-grid-container-query"
+    "url": "https://github.com/topexam/react-grid-container-query"
   },
-  "homepage": "https://github.com/topthithu/react-grid-container-query",
+  "homepage": "https://github.com/topexam/react-grid-container-query",
   "keywords": [
     "react",
     "container query",
@@ -33,17 +33,6 @@
     "start": "dts watch",
     "storybook": "start-storybook -p 6006",
     "test": "dts test --passWithNoTests"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "dts lint"
-    }
-  },
-  "prettier": {
-    "printWidth": 80,
-    "semi": true,
-    "singleQuote": true,
-    "trailingComma": "es5"
   },
   "jest": {
     "testEnvironment": "jsdom"
@@ -65,33 +54,36 @@
     }
   ],
   "devDependencies": {
-    "@babel/core": "^7.16.7",
-    "@size-limit/preset-small-lib": "^7.0.5",
-    "@storybook/addon-essentials": "^6.4.13",
+    "@babel/core": "^7.24.4",
+    "@commitlint/cli": "^19.2.1",
+    "@commitlint/config-conventional": "^19.1.0",
+    "@size-limit/esbuild": "^11.1.2",
+    "@size-limit/esbuild-why": "^11.1.2",
+    "@size-limit/preset-small-lib": "^11.1.2",
+    "@storybook/addon-essentials": "^8.0.6",
     "@storybook/addon-info": "^5.3.21",
-    "@storybook/addon-links": "^6.4.13",
-    "@storybook/addons": "^6.4.13",
-    "@storybook/react": "^6.4.13",
-    "@tsconfig/create-react-app": "^1.0.2",
-    "@tsconfig/recommended": "^1.0.1",
-    "@types/react": "^17.0.38",
-    "@types/react-dom": "^17.0.11",
-    "babel-loader": "^8.2.3",
-    "dts-cli": "^1.1.6",
-    "husky": "^7.0.4",
-    "postcss": "^8.4.6",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-is": "^17.0.2",
+    "@storybook/addon-links": "^8.0.6",
+    "@storybook/addons": "^7.6.17",
+    "@storybook/react": "^8.0.6",
+    "@tsconfig/create-react-app": "^2.0.4",
+    "@tsconfig/recommended": "^1.0.6",
+    "@types/react": "^18.2.74",
+    "@types/react-dom": "^18.2.24",
+    "babel-loader": "^9.1.3",
+    "dts-cli": "^2.0.4",
+    "husky": "^9.0.11",
+    "postcss": "^8.4.38",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-is": "^18.2.0",
     "rollup-plugin-postcss": "^4.0.2",
-    "sass": "^1.49.8",
-    "size-limit": "^7.0.5",
-    "tslib": "^2.3.1",
-    "typescript": "^4.5.4"
+    "sass": "^1.74.1",
+    "tslib": "^2.6.2",
+    "typescript": "^5.1.6"
   },
   "dependencies": {
-    "clsx": "^1.1.1",
-    "react-container-query": "^0.12.0"
+    "clsx": "^2.1.0",
+    "react-container-query": "^0.13.0"
   },
   "publishConfig": {
     "access": "public",
